@@ -6,8 +6,8 @@ use research in Mathematics as Proof of Work in a Cryptocurrency.
 Proof of Work by finding a Solution to a Problem must hard to generate but easy to verify. In Bitcoins its of the Form: Find a x for that Hash(x)<k.
 
 Proofs for Mathematical Hypotheses are of the same quality, increasingly Hard to get, but once found, easy to verify ( if written in a Computerreadable form).
-Finding shorter Proofs is hard to, but easy verrifable. Good POW too.
-Finding Theorems, that can be used to shorten multible know Proofs.
+Finding shorter versions of known Proofs is hard to, but easy verrifable.
+Finding Theorems, that can be used to shorten multible know Proofs. (Verry hard, such Theorems may be realy Interesting)
 
 Problems:
 Not so easy to time the finding of Solutions
