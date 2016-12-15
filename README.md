@@ -7,6 +7,7 @@ Proof of Work by finding a Solution to a Problem must hard to generate but easy 
 
 Proofs for Mathematical Hypotheses are of the same quality, increasingly Hard to get, but once found, easy to verify ( if written in a Computerreadable form).
 Finding shorter Proofs is hard to, but easy verrifable. Good POW too.
+Finding Theorems, that can be used to shorten multible know Proofs.
 
 Problems:
 Not so easy to time the finding of Solutions
