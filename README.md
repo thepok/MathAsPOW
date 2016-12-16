@@ -12,9 +12,9 @@ Proof of Work: to find a solution to a problem must be hard to find but easy to 
 * Finding Theorems, that can be used to shorten multible know Proofs. (Verry hard, such Theorems may be realy Interesting)
 
 ## Advantages:
-MathPOW is generally usefull.
-MathPOW is workable by humans!
-MathPOW fosters research in automatic Theoremproofing and mathematical education.
+* MathPOW is generally usefull.
+* MathPOW is workable by humans!
+* MathPOW fosters research in automatic Theoremproofing and mathematical education.
 
 
 
@@ -28,7 +28,7 @@ MathPOW fosters research in automatic Theoremproofing and mathematical education
     * Could still be abused to create manny Blocks for the Transactionfees.
 
 ## Thoughts
-Generalizations of multiple theorems into one as MathPoW?
+* Generalizations of multiple theorems into one as MathPoW?
 
 ## Details:
 
