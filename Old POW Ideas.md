@@ -1,6 +1,4 @@
-\documentclass[]{article}
 
-%opening
 #The Dream of more useful Proof of Work
  from Marcel Richter
 
@@ -9,23 +7,23 @@ Since the beginning of Bitcoin there was the Quest for an Proof of Work system  
 
 ## Proof of Work - Required properties
 
-* \textbf{Hard to Compute but easy to verify:} Although any given solution to such a problem can be verified quickly, there is no known efficient way to locate a solution in the first place. Such Problems are part of the complexity class NP or NP-Hard as long as they are not part of P.
+* **Hard to Compute but easy to verify:** Although any given solution to such a problem can be verified quickly, there is no known efficient way to locate a solution in the first place. Such Problems are part of the complexity class NP or NP-Hard as long as they are not part of P.
 
-* \textbf{Abundant Input:} You must be able to generate your work yourself. Else you may would have to wait for some third person to provide Work for you. That may not be possible in a trust free manner.
+* **Abundant Input:** You must be able to generate your work yourself. Else you may would have to wait for some third person to provide Work for you. That may not be possible in a trust free manner.
 
-* \textbf{small memory-space requirements:} Because all the Proof of Work Inputs and Results have to be saved in the Blockchain to be able to verify the consistency of it in a trust free manner. 
+* **small memory-space requirements:** Because all the Proof of Work Inputs and Results have to be saved in the Blockchain to be able to verify the consistency of it in a trust free manner. 
 
-* \textbf{adjustable worksize:}. Otherwise the Cryptocurrencynetwork wouldn't be able to set the median time that passes between two found solutions/blocks. 
+* **adjustable worksize:** Otherwise the Cryptocurrencynetwork wouldn't be able to set the median time that passes between two found solutions/blocks. 
 
-* \textbf{Parallelizable:} Work has to be derivative from a nuance that can be free chosen, so miners can start searching on different parts of the workinputspace, or the problem itself has to offer many points to start from.
+* **Parallelizable:** Work has to be derivative from a nuance that can be free chosen, so miners can start searching on different parts of the workinputspace, or the problem itself has to offer many points to start from.
 
-* \textbf{(Satisfieable)} in the sens, that an solution to an Problem must be foundeable in any case. Else it would be possible to get stuck in an search for a solution for an input for ever.
+* **(Satisfieable)** in the sens, that an solution to an Problem must be foundeable in any case. Else it would be possible to get stuck in an search for a solution for an input for ever.
 
-* \textbf{(No pre-calculating of future Blocks:)} It should not be possible, to pre-calculate to reduce the work of a specific future block beside the current one. That does not mean, it should not be possible to make the search for an solution more efficient by calculating some general information usable for every future block.(Hash-tables or so).
+* **(No pre-calculating of future Blocks:)** It should not be possible, to pre-calculate to reduce the work of a specific future block beside the current one. That does not mean, it should not be possible to make the search for an solution more efficient by calculating some general information usable for every future block.(Hash-tables or so).
 
 ## Proof of Work - nice to have properties
-* \textbf{save from the invasion of botnets}
-* \textbf{suitable for pooled mining} to combine computing power to reduce payment variation
+* **save from the invasion of botnets**
+* **suitable for pooled mining** to combine computing power to reduce payment variation
 
 
 ## Evaluations of the Current Prof of Work: Hashing
