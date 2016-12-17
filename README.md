@@ -1,10 +1,10 @@
 # Math As POW
 
 ## Dream
-Use research in Mathematics as replacement for the currently verrie limited Proof of Work Systems in Cryptocurrencies.
-Since the beginning of Bitcoin there was the Quest for an Proof of Work system  not only useful to Bitcoins security, but other realms too. 
+Since the beginning of Bitcoin there was the Quest for an Proof of Work system  not only useful to Bitcoins security, but other realms too. I propose to use research in Mathematics as replacement for the currently verrie limited Proof of Work Systems in Cryptocurrencies.
 
 ## Proof of Work - Required properties
+Not every computeintens operation is usabale as Proof of Work. A Worktask has to satisfy the following points:
 
 * **Hard to Compute but easy to verify:** Although any given solution to such a problem can be verified quickly, there is no known efficient way to locate a solution in the first place. Such Problems are part of the complexity class NP or NP-Hard as long as they are not part of P.
 
@@ -21,8 +21,10 @@ Since the beginning of Bitcoin there was the Quest for an Proof of Work system  
 * **(No pre-calculating of future Blocks:)** It should not be possible, to pre-calculate to reduce the work of a specific future block beside the current one. That does not mean, it should not be possible to make the search for an solution more efficient by calculating some general information usable for every future block.(Hash-tables or so).
 
 ### Proof of Work - nice to have properties
-* \textbf{save from the invasion of botnets}
-* \textbf{suitable for pooled mining} to combine computing power to reduce payment variation
+* **save from the invasion of botnets**
+* **suitable for pooled mining** to combine computing power to reduce payment variation
+* **unsuitable for pooled mining** to combat minercentralisation
+
 
 ## Current Proof Of Work: Hashing
 Proof of Work: to find a solution to a problem must be hard to find but easy to verify. In Bitcoins its of the Form: Find a special Value x for that Hash(x) < k holds.
