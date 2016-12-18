@@ -35,36 +35,45 @@ One big positiv site of this PoW-system must be named. Botnets have no chance, s
 
 It is not clear, weather for each difficulty an solution can be found!
 
-## Research as Proof Of Work:
-* Proofs for Mathematical Hypotheses are of the same quality: increasingly hard to get, but once found, easy to verify. (If written in a computerreadable form.)
-* Finding shorter versions of known Proofs is hard to, but easy verrifable.
-* Finding Theorems, that can be used to shorten multible know Proofs. (Verry hard, such Theorems may be realy Interesting)
+## Prooving Theorems as Proof Of Work (MathPOW):
+Essentially everything that is possible to know in mathematics can be derived from a handful of axioms known as Zermelo-Fraenkel set theory, which is the culmination of many years of effort to isolate the essential nature of mathematics and is one of the most profound achievements of mankind[1]. The Project arround Methamath tries to Proof all Math without gaps. A quite big Database off allready proofen Theorems exists, that could be optimized. This would be MathPOW-Optimization. Adding new Proofs to the Database would be MathPOW-Research.
+
+Essentialy the search for the proof of an Theorem builds a Searchtree. Every Node of the Tree is the result of the Application of a replacement rule. At the Moment, Humans are better at Finding the Right Path on this Searchtree, but in Principle its possible for Computers too. 
+Possible Mathrelated tasks as Proof of Work are:
+* Searching Proofs for Mathematical Theorems. They are hard to find, but once found, easy to verify. (If written in a computerreadable form.)
+* Searching shorter versions of known Proofs.
+* Finding Theorems, that can be used to shorten multible know Proofs. Such Theorems may be a specialy interesting.
 
 ### Advantages:
 * MathPOW is generally usefull.
-* MathPOW is workable by humans!
+* MathPOW is workable by humans.
 * MathPOW fosters research in automatic Theoremproofing and mathematical education.
 
 
 
-### Problems:
+### Problems and possible Solutions or remarks:
 * Not possible to adjust the difficulty to adjuste the rate of found solutions
-  * solvable by combining ordenary POW and MathPOW?
+  * Combination of ordenary POW and MathPOW.
+  * IF rate to high, demand multiple new Proofs, and if rate to low, increase reward.
 * How to generate new Theorems?
   * Not solvable by the Miners, they could collide to create easy Problmes.
 * When a shorter Proof is found, it could be artifical made longer, to resubmit it later a little bit shorter again...
-  * Reward is a Function of the lengt of a Mathematical Proof. Only the diffrenece between Old and new Value is payed.
+  * Reward is a Function of the lengt of a Mathematical Proof. Only the diffrenece between old and new value is payed.
     * Could still be abused to create manny Blocks for the Transactionfees.
 
 ### Thoughts
 * Generalizations of multiple theorems into one as MathPoW?
 
-### Details:
+## Implementation:
+This could be implemented into Bitcoin, its the most Valueable chain, and so would create most gain for research. As Sidechain, or in the Mainchain as an Additional kind of POW. I belive this would increase the respekt for Bitcoin, and therefor the Marketcap.
 
-Its Possible to Proof most of all known Math from Just some Axioms and Definitions on Set-theorie. These Proofs can be written down in Computercomprehensible form in Metamath (https://en.wikipedia.org/wiki/Metamath) and fast verriefied. The Project arround Methamath tries to Proof all Math without gaps. A quite big Database off allready proofen Theorems exists, that could be optimized. This would be POW-Mathoptimization. Adding new Proofs to the Database would be POW-Mathresearch.
-
-This could be implemented into Bitcoin, its the most Valueable chain, and so would create most gain for research. As Sidechain, or in the Mainchain as an Additional kind of POW.
-
-## How to switch to new Proof of Work system in consens with Miners
+### How to switch to new Proof of Work system in consens with Miners
 The transition must be partial, the gain in recocnition of Bitcoin and so Value has to be bigger as the loss of current Miners, a slow transiton is the only way for Bitcoin to stay save. Maybe of 0.5\% per Month
 
+## How can you help?
+* tell all your Cryptocurrenydevelopers that you want MathPOW!
+* Create Pullrequest with new Ideas or corrected Spelling ;)
+* Help me to work on MathPOW by donating to 1CfD6YX9Z5gjNAetDdmrdxJrHTt6j4NhAr
+
+## Links
+[1] http://us.metamath.org/mpegif/mmset.html#theorems
