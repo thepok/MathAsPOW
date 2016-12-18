@@ -35,19 +35,19 @@ One big positiv site of this PoW-system must be named. Botnets have no chance, s
 
 It is not clear, weather for each difficulty an solution can be found!
 
-### Research as Proof Of Work:
+## Research as Proof Of Work:
 * Proofs for Mathematical Hypotheses are of the same quality: increasingly hard to get, but once found, easy to verify. (If written in a computerreadable form.)
 * Finding shorter versions of known Proofs is hard to, but easy verrifable.
 * Finding Theorems, that can be used to shorten multible know Proofs. (Verry hard, such Theorems may be realy Interesting)
 
-## Advantages:
+### Advantages:
 * MathPOW is generally usefull.
 * MathPOW is workable by humans!
 * MathPOW fosters research in automatic Theoremproofing and mathematical education.
 
 
 
-## Problems:
+### Problems:
 * Not possible to adjust the difficulty to adjuste the rate of found solutions
   * solvable by combining ordenary POW and MathPOW?
 * How to generate new Theorems?
@@ -56,7 +56,7 @@ It is not clear, weather for each difficulty an solution can be found!
   * Reward is a Function of the lengt of a Mathematical Proof. Only the diffrenece between Old and new Value is payed.
     * Could still be abused to create manny Blocks for the Transactionfees.
 
-## Thoughts
+### Thoughts
 * Generalizations of multiple theorems into one as MathPoW?
 
 ### Details:
@@ -65,6 +65,6 @@ Its Possible to Proof most of all known Math from Just some Axioms and Definitio
 
 This could be implemented into Bitcoin, its the most Valueable chain, and so would create most gain for research. As Sidechain, or in the Mainchain as an Additional kind of POW.
 
-### How to switch to new Proof of Work system in consens with Miners
+## How to switch to new Proof of Work system in consens with Miners
 The transition must be partial, the gain in recocnition of Bitcoin and so Value has to be bigger as the loss of current Miners, a slow transiton is the only way for Bitcoin to stay save. Maybe of 0.5\% per Month
 
