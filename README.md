@@ -4,30 +4,7 @@
 Imagine: With every new Block, new scientific progress is made. I believe this is possible with technology available yet and some not to hard work. Since the beginning of Bitcoin there was the Quest for an Proof of Work system  not only useful to Bitcoins security, but other realms too. I propose to use research in Mathematics as replacement or addition for the currently very limited Proof of Work Systems in Cryptocurrencies.
 
 ## Proof of Work
-### Required properties
-Not every computeintens operation is usable as Proof of Work. A Worktask has to satisfy the following points:
-
-* **Hard to Compute but easy to verify:** Although any given solution to such a problem can be verified quickly, there is no known efficient way to locate a solution in the first place. Such Problems are part of the complexity class NP or NP-Hard as long as they are not part of P.
-
-* **Abundant Input:** You must be able to generate your work yourself. Else you may would have to wait for some third person to provide Work for you. That may not be possible in a trust free manner.
-
-* **small memory-space requirements:** Because all the Proof of Work Inputs and Results have to be saved in the Blockchain to be able to verify the consistency of it in a trust free manner. 
-
-* **adjustable worksize:** Otherwise the Cryptocurrencynetwork wouldn't be able to set the median time that passes between two found solutions/blocks. 
-
-* **can be parallelized:** Work has to be derivative from a nuance that can be free chosen, so miners can start searching on different parts of the workinputspace, or the problem itself has to offer many points to start from.
-
-* **(Can be satisfied)** in the sense, that an solution to an Problem must be foundeable in any case. Else it would be possible to get stuck in an search for a solution for an input for ever.
-
-* **(No pre-calculating of future Blocks:)** It should not be possible, to pre-calculate to reduce the work of a specific future block beside the current one. That does not mean, it should not be possible to make the search for an solution more efficient by calculating some general information usable for every future block.(Hash-tables or so).
-
-### Nice to have properties
-* **save from the invasion of botnets**
-* **suitable for pooled mining** to combine computing power to reduce payment variation
-* **unsuitable for pooled mining** to combat minercentralisation
-
-
-### Current Proof Of Work: Hashing
+### Currently: Hashing
 Proof of Work: to find a solution to a problem must be hard to find but easy to verify. In Bitcoins its of the Form: Find a special Value x for that Hash(x) < k holds.
 
 To find a fitting hash is hard, but its easy to proof a found input is correct. The Workinput is allways given by transforming the Last POW Output to the Input of the next Run. Finaly the space requirements are minimal. One Large Input and Outputnumber, and some variable X. Around 80 Bytes. But the Found hashes have no other Value to the World. At some point, further development of ASICs may be fostered by the quest of ever faster hashing. But new motivation isn't really necessary in this field of science. So a lot of energy is used up rather useless beside maybe warming some glasshouses to grow vegetables.
@@ -74,6 +51,29 @@ The transition must be partial, the gain in recocnition of Bitcoin and so Value 
 * tell all your Cryptocurrenydevelopers that you want MathPOW!
 * Create Pullrequest with new Ideas or corrected Spelling ;)
 * Help me to work on MathPOW by donating to 1CfD6YX9Z5gjNAetDdmrdxJrHTt6j4NhAr
+
+
+### Required properties for POW
+Not every computeintens operation is usable as Proof of Work. A Worktask has to satisfy the following points:
+
+* **Hard to Compute but easy to verify:** Although any given solution to such a problem can be verified quickly, there is no known efficient way to locate a solution in the first place. Such Problems are part of the complexity class NP or NP-Hard as long as they are not part of P.
+
+* **Abundant Input:** You must be able to generate your work yourself. Else you may would have to wait for some third person to provide Work for you. That may not be possible in a trust free manner.
+
+* **small memory-space requirements:** Because all the Proof of Work Inputs and Results have to be saved in the Blockchain to be able to verify the consistency of it in a trust free manner. 
+
+* **adjustable worksize:** Otherwise the Cryptocurrencynetwork wouldn't be able to set the median time that passes between two found solutions/blocks. 
+
+* **can be parallelized:** Work has to be derivative from a nuance that can be free chosen, so miners can start searching on different parts of the workinputspace, or the problem itself has to offer many points to start from.
+
+* **(Can be satisfied)** in the sense, that an solution to an Problem must be foundeable in any case. Else it would be possible to get stuck in an search for a solution for an input for ever.
+
+* **(No pre-calculating of future Blocks:)** It should not be possible, to pre-calculate to reduce the work of a specific future block beside the current one. That does not mean, it should not be possible to make the search for an solution more efficient by calculating some general information usable for every future block.(Hash-tables or so).
+
+### Nice to have properties
+* **save from the invasion of botnets**
+* **suitable for pooled mining** to combine computing power to reduce payment variation
+* **unsuitable for pooled mining** to combat minercentralisation
 
 ## Links
 [1] http://us.metamath.org/mpegif/mmset.html#theorems
