@@ -37,6 +37,8 @@ Possible Mathrelated tasks as Proof of Work are:
 * When a shorter Proof is found, it could be artifical made longer, to resubmit it later a little bit shorter again...
   * Reward is a Function of the lengt of a Mathematical Proof. Only the diffrenece between old and new value is payed.
     * Could still be abused to create manny Blocks for the Transactionfees.
+* When the Blockchain forks, with normal POW you have to decide, on wich Fork you work, with MathPOW thats not the case, proof would be valid on both forks. Thats the same weakness like with Proof of Stake
+  * Combination of PoW and MathPoW save?
 
 ### Thoughts
 * Generalizations of multiple theorems into one as MathPoW?
