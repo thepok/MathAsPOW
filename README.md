@@ -1,11 +1,11 @@
 # Math As POW
 
 ## Dream
-Imagine: With every new Block, new scintific progress is made. I belive this is possible with technology aviable yet and some not to hard work. Since the beginning of Bitcoin there was the Quest for an Proof of Work system  not only useful to Bitcoins security, but other realms too. I propose to use research in Mathematics as replacement or addition for the currently verrie limited Proof of Work Systems in Cryptocurrencies.
+Imagine: With every new Block, new scientific progress is made. I believe this is possible with technology available yet and some not to hard work. Since the beginning of Bitcoin there was the Quest for an Proof of Work system  not only useful to Bitcoins security, but other realms too. I propose to use research in Mathematics as replacement or addition for the currently very limited Proof of Work Systems in Cryptocurrencies.
 
 ## Proof of Work
 ### Required properties
-Not every computeintens operation is usabale as Proof of Work. A Worktask has to satisfy the following points:
+Not every computeintens operation is usable as Proof of Work. A Worktask has to satisfy the following points:
 
 * **Hard to Compute but easy to verify:** Although any given solution to such a problem can be verified quickly, there is no known efficient way to locate a solution in the first place. Such Problems are part of the complexity class NP or NP-Hard as long as they are not part of P.
 
@@ -15,9 +15,9 @@ Not every computeintens operation is usabale as Proof of Work. A Worktask has to
 
 * **adjustable worksize:** Otherwise the Cryptocurrencynetwork wouldn't be able to set the median time that passes between two found solutions/blocks. 
 
-* **Parallelizable:** Work has to be derivative from a nuance that can be free chosen, so miners can start searching on different parts of the workinputspace, or the problem itself has to offer many points to start from.
+* **can be parallelized:** Work has to be derivative from a nuance that can be free chosen, so miners can start searching on different parts of the workinputspace, or the problem itself has to offer many points to start from.
 
-* **(Satisfieable)** in the sens, that an solution to an Problem must be foundeable in any case. Else it would be possible to get stuck in an search for a solution for an input for ever.
+* **(Can be satisfied)** in the sense, that an solution to an Problem must be foundeable in any case. Else it would be possible to get stuck in an search for a solution for an input for ever.
 
 * **(No pre-calculating of future Blocks:)** It should not be possible, to pre-calculate to reduce the work of a specific future block beside the current one. That does not mean, it should not be possible to make the search for an solution more efficient by calculating some general information usable for every future block.(Hash-tables or so).
 
