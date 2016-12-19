@@ -77,5 +77,14 @@ Not every computeintens operation is usable as Proof of Work. A Worktask has to 
 * **suitable for pooled mining** to combine computing power to reduce payment variation
 * **unsuitable for pooled mining** to combat minercentralisation
 
+## Prior Work
+* Primecoin 
+[http://primecoin.io/]
+PoW is to find Primenumberpairs. 
+
+* Gridcoin 
+[http://www.gridcoin.us/]
+Not Trustless. Work is recived from BIONC servers. Use of Whitelists.
+
 ## Links
 [1] http://us.metamath.org/mpegif/mmset.html#theorems
